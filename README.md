@@ -1,14 +1,15 @@
-# MineSweeper
+MineSweeper
 ====
 
-This is a small prctising app for some java new learners whos is at their beginning level.
+MineSweeper is a small practising app for Java learners who are at beginning level.
 
-This repository doesn't provide any full-funtional app. Instead, it provides codes which are core to the app.
+This repository does NOT provide any fully funtional app. Instead, it gives codes which are core to the app.
 
-It is a good practice since it used things like radiogroup, alpha and intent. All of these are very important to build a java app.
+This app could be a good practice. It uses essential functions for building Java apps, such as radiogroup (for button selecting), alpha (for animation) and intent(for passing data between classes).
 
 Note:
 ```java
-It is not OK to use my code without any permission.
-If you want to use, please contact me first.
+DO NOT use these codes without permission.
+Please contact me and ask for permission if you want to use the code. 
+Thank you.
 ```
