@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Determination Seeker</string>
+    <string name="direction_clicke_on_a_tile_if_there_is_a_determination_hidden_below_you_will_find_it_out_a_red_heart_otherwise_a_determination_scanner_invented_by_dr_alphys_will_help_you_scanning_the_row_and_the_column_of_this_tile_and_show_you_the_number_of_hidden_determination_use_this_number_as_a_guidance_to_find_other_determinations">Direction: Clicke on a tile. If there is a determinationhidden below, you will find it out. ( a red heart) Otherwise, a determination scannerinvented by Dr. Alphys will help you scanning the row and the column of this tile and show you the number of hidden determination. Use this number as a guidance to find other determinations.</string>
+    <string name="in_the_story_of_undertale_only_human_has_the_determination_which_is_paramountly_powerful_to_save_the_world_so_dr_alphys_wanted_to_do_experiments_on_determinations_unfortunately_in_the_fight_with_flowey_she_lost_her_extracts_of_determinations_now_please_help_her_to_find_determination_back"><![CDATA[In the story of <Undertale>, only human has the determinationwhich is paramountly powerful to save the world. So Dr. Alphys wanted to do experiments on determinations. Unfortunately, in the fight with Flowey, she lost her extracts of determinations. Now please help her to find determination back.]]></string>
+    <string name="story_background_from_undertale"><![CDATA[Story background from:<Undertale> www.undertale.com]]></string>
+    <string name="main_menu_background_https_pixabay_com_en_heart_pixel_square_love_red_1847868">pixabay.com/en/heart-pixel-square-love-red-1847868/</string>
+    <string name="determination_image_app_icon">Images:</string>
+    <string name="welcome_screen_background">orig02.deviantart.net/90d3/f/2015/283/6/4/blooks_by_ploki52-d9copfc.png</string>
+    <string name="image">Image:</string>
+    <string name="ok">OK</string>
+    <string name="https_imgflip_com_memetemplate_60292945_annoying_dogundertale">https://imgflip.com/memetemplate/60292945/Annoying-Dogundertale</string>
+    <string name="sound_effects_http_soundbible_com_free_sound_effects_1_html">Sound effects: http://soundbible.com/free-sound-effects-1.html</string>
+    <string name="all_images">All images:</string>
+    <string name="https_pixabay_com_en_pixel_heart_rose_pink_love_355142">https://pixabay.com/en/pixel-heart-rose-pink-love-355142/</string>
+    <string name="https_commons_wikimedia_org_wiki_crystal_clear">https://commons.wikimedia.org/wiki/Crystal_Clear</string>
+    <string name="www_loadthegame_com_2015_10_09_undertale_review_humans_monsters_flowers">www.loadthegame.com/2015/10/09/undertale-review-humans-monsters-flowers/</string>
+    <string name="story_from_undertale_www_undertale_com"><![CDATA[Story from <Undertale>: www.undertale.com]]></string>
+    <string name="main_menu">Main Menu</string>
+    <string name="https_pixabay_com_en_heart_pixel_square_love_red_1847868">https://pixabay.com/en/heart-pixel-square-love-red-1847868/</string>
+    <string name="help">HELP</string>
+    <string name="options">OPTIONS</string>
+    <string name="start">START</string>
+    <string name="please_select_your_board_size">Please select your board size:</string>
+    <string name="please_select_number_of_mines">please select number of mines:</string>
+    <string name="okk">OK</string>
+    <string name="clear_all_data">CLEAR ALL DATA</string>
+    <string name="by_jianing_sun">by Jianing Sun</string>
+    <string name="determination_seeker">Determination Seeker</string>
+    <string name="skip">SKIP</string>
+    <string name="you_won_the_game">You won the game!</string>
+</resources>

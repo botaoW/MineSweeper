@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/pixel"
+    tools:context="com.example.jianingsun.mineseeker.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu"
+        android:id="@+id/menu"
+        android:textSize="42sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textAllCaps="false"
+        android:contentDescription="@string/https_pixabay_com_en_heart_pixel_square_love_red_1847868"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="41dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/optBtn"
+        android:layout_alignStart="@+id/optBtn" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hhhhh"
+        android:id="@+id/imageView5"
+        android:layout_alignTop="@+id/optBtn"
+        android:layout_toRightOf="@+id/menu"
+        android:layout_toEndOf="@+id/menu"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:text="@string/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/optBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:elevation="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/helpBtn"
+        android:layout_toLeftOf="@+id/menu"
+        android:layout_toStartOf="@+id/menu" />
+
+    <Button
+        android:text="@string/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@+id/optBtn"
+        android:layout_toLeftOf="@+id/menu"
+        android:layout_toStartOf="@+id/menu"
+        android:layout_marginBottom="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countingGames"
+        android:textSize="17sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_below="@+id/menu"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bestText"
+        android:textSize="17sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_above="@+id/optBtn"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/ninininin"
+    tools:context="com.example.jianingsun.mineseeker.GameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countingMines"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold"
+        android:contentDescription="http://www.loadthegame.com/2015/10/09/undertale-review-humans-monsters-flowers/" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:id="@+id/countingScans"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:id="@+id/tableForButtons"
+        android:layout_below="@+id/bestTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp">
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold"
+        android:textSize="17sp"
+        android:layout_alignTop="@+id/bestTxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bestTxt"
+        android:textStyle="normal|bold"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="16sp"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/countingScans"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Best score:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_alignTop="@+id/bestTxt"
+        android:layout_toLeftOf="@+id/countingScans"
+        android:layout_toStartOf="@+id/countingScans"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+</RelativeLayout>
