@@ -1,11 +1,18 @@
 MineSweeper
 ====
 
-MineSweeper is a small practising app for Java learners who are at beginning level.
+MineSweeper is a practising app for Java learners who are at beginning level.
 
-This repository does NOT provide any fully funtional app. Instead, it gives codes which are core to the app.
+This repository does NOT provide a fully funtional app. Instead, it gives codes which are core to the app.
 
-This app could be a good practice. It uses essential functions for building Java apps, such as radiogroup (for button selecting), alpha (for animation) and intent(for passing data between classes).
+This app is a good practice. It uses essential functions for building Java apps, such as radiogroup (for button selecting), alpha (for animation) and intent(for passing data between classes).
+
+Suggested developing tool:   Android Studio
+You can download it for free. URL:
+```java
+https://developer.android.com/studio/index.html
+```
+
 
 Note:
 ```java
